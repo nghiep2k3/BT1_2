@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action_page.php">
+        <h1 style="text-transform: uppercase; font-size: 20px;">Thêm thành viên</h1>
+
+        <label for="name">Họ tên:</label>
+        <input  type="text" id="name"><br><br>
+
+        <label for="BoD">Ngày sinh:</label>
+        <input  type="date" id="BoD"><br><br>
+
+        <span>Giới tính:</span>
+        <input type="radio" id="GT" name="GT">
+        <label for="GT">Nam</label>
+
+        <input type="radio" id="GT2" name="GT">
+        <label for="GT2">Nữ</label><br><br>
+
+        <label for="home">Quê quán:</label>
+        <select name="" id="home">
+            <option value=" Hà Nội">Hà Nội</option>
+            <option value="Nam Định">Nam Định</option>
+            <option value="Hà Nam">Hà Nam</option>
+        </select><br><br>
+
+        <label for="address">Địa chỉ:</label>
+        <input type="text" id="address" name="address"><br><br>
+
+        <span>Sở thích:</span>
+        <input type="checkbox" id="sport"> 
+        <label for="sport">Thể thao</label>
+        <input type="checkbox" id="travel">
+        <label for="travel">Du lịch</label>
+        <input type="checkbox" id="firm">
+        <label for="firm">Phim ảnh</label>
+        <input type="checkbox" id="Eat">
+        <label for="Eat">Ẩm thực</label><br><br>
+
+        <label for="color">Màu yêu thích:</label>
+        <input type="color" id="color" name="color" value="#e66465"><br><br>
+
+        <label for="Email">Email</label>
+        <input type="email" id="Email"><br><br>
+
+        <label for="page">Trang Facebook:</label>
+        <input type="text" id="page"><br><br>
+
+        <label for="class">Lớp:</label>
+        <select id="class">
+            <option value="Lớp  CNTT Khóa 8">Lớp  CNTT Khóa 8</option>
+            <option value="Lớp  CNTT Khóa 8">Lớp  CNTT Khóa 8</option>
+            <option value="Lớp  CNTT Khóa 8">Lớp  CNTT Khóa 8</option>
+        </select><br><br>
+
+        <label for="login">Tên đăng nhập:</label>
+        <input type="text" id="login"><br><br>
+
+        <label for="password">Mật khẩu:</label>
+        <input type="password" id="password"><br><br>
+
+        <label for="avatar">Chọn ảnh:</label>
+        <input type="file"id="avatar" name="avatar"accept="image/png, image/jpeg"><br><br>
+
+        <label for="description">Mô tả:</label>
+        <textarea  rows="1" id="description" name="description" placeholder="Nhập nội dung vào đây!"></textarea><br><br>
+
+        <button>Gửi</button>   
+        <button>Nhập lại</button>   
+    </form>
+</body>
+</html>
